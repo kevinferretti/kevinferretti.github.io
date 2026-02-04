@@ -202,6 +202,21 @@ main {
   background: linear-gradient(90deg, var(--color-accent), var(--color-green), var(--color-blue));
 }
 
+.nav-links a.nav-source {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  transition: all var(--transition);
+}
+
+.nav-links a.nav-source:hover {
+  border-color: var(--color-text-light);
+  color: var(--color-text);
+  background-color: var(--color-bg-alt);
+}
+
 /* Mobile menu toggle */
 .nav-toggle {
   display: none;
@@ -296,6 +311,13 @@ main {
   color: var(--color-text-light);
   max-width: 600px;
   margin: 0 auto var(--space-lg);
+}
+
+@media (min-width: 769px) {
+  .hero .tagline {
+    white-space: nowrap;
+    max-width: none;
+  }
 }
 
 .hero-links {
@@ -931,6 +953,22 @@ main {
    -------------------------------------------------------------------------- */
 .text-center {
   text-align: center;
+}
+
+.link-green {
+  color: var(--color-green);
+}
+
+.link-green:hover {
+  color: #00d468;
+}
+
+.link-blue {
+  color: var(--color-blue);
+}
+
+.link-blue:hover {
+  color: #4d7fff;
 }
 
 .placeholder-note {
