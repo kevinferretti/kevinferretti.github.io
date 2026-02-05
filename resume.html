@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kevin Ferretti's resume - experience, skills, and education.">
+  <title>Resume - Kevin Ferretti</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo.svg" alt="" class="nav-logo-icon">
+        Kevin Ferretti
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="writing.html">Writing</a></li>
+        <li><a href="pictures.html">Pictures</a></li>
+        <li><a href="talks.html">Talks</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="https://github.com/yourusername/personal-site" target="_blank" rel="noopener noreferrer">Source</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+      <header class="page-header">
+        <h1>Resume</h1>
+        <div class="resume-links">
+          <!-- EDIT: Update these links -->
+          <a href="images/resume.pdf" class="btn" target="_blank" rel="noopener noreferrer">Download PDF</a>
+          <a href="https://github.com/yourusername" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://linkedin.com/in/yourusername" class="btn btn-green" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </header>
+
+      <div class="resume-content">
+        <!-- Summary -->
+        <section class="resume-section">
+          <h2>Summary</h2>
+          <p>
+            <!-- EDIT: Your professional summary -->
+            Experienced software engineer with a passion for building scalable applications
+            and solving complex problems. Strong background in full-stack development,
+            system design, and technical leadership.
+          </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="resume-section">
+          <h2>Experience</h2>
+
+          <!--
+            JOB TEMPLATE
+            Copy this div to add more positions.
+          -->
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3>Senior Software Engineer</h3>
+              <span class="resume-date">2022 - Present</span>
+            </div>
+            <p class="resume-company">Company Name &bull; Location</p>
+            <ul class="resume-list">
+              <li>Led development of key features that improved user engagement by 40%</li>
+              <li>Architected and implemented microservices infrastructure</li>
+              <li>Mentored junior engineers and conducted code reviews</li>
+              <li>Collaborated with product and design teams on technical specifications</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3>Software Engineer</h3>
+              <span class="resume-date">2019 - 2022</span>
+            </div>
+            <p class="resume-company">Previous Company &bull; Location</p>
+            <ul class="resume-list">
+              <li>Built and maintained full-stack web applications using React and Node.js</li>
+              <li>Designed and implemented RESTful APIs serving millions of requests</li>
+              <li>Improved application performance by optimizing database queries</li>
+              <li>Participated in on-call rotation and incident response</li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3>Junior Developer</h3>
+              <span class="resume-date">2017 - 2019</span>
+            </div>
+            <p class="resume-company">First Company &bull; Location</p>
+            <ul class="resume-list">
+              <li>Developed features for customer-facing web application</li>
+              <li>Wrote unit and integration tests to ensure code quality</li>
+              <li>Contributed to internal tools and automation scripts</li>
+            </ul>
+          </div>
+
+          <!--
+            ADD MORE JOBS ABOVE THIS COMMENT
+          -->
+        </section>
+
+        <!-- Skills -->
+        <section class="resume-section">
+          <h2>Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-category">
+              <h4>Languages</h4>
+              <div class="skill-tags">
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>Python</span>
+                <span>Go</span>
+                <span>SQL</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h4>Frontend</h4>
+              <div class="skill-tags">
+                <span>React</span>
+                <span>Vue.js</span>
+                <span>HTML/CSS</span>
+                <span>Tailwind</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h4>Backend</h4>
+              <div class="skill-tags">
+                <span>Node.js</span>
+                <span>FastAPI</span>
+                <span>PostgreSQL</span>
+                <span>Redis</span>
+              </div>
+            </div>
+            <div class="skill-category">
+              <h4>Tools</h4>
+              <div class="skill-tags">
+                <span>Git</span>
+                <span>Docker</span>
+                <span>AWS</span>
+                <span>CI/CD</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section class="resume-section">
+          <h2>Education</h2>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3>Bachelor of Science in Computer Science</h3>
+              <span class="resume-date">2013 - 2017</span>
+            </div>
+            <p class="resume-company">University Name &bull; Location</p>
+          </div>
+
+          <!--
+            ADD MORE EDUCATION ABOVE THIS COMMENT
+          -->
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

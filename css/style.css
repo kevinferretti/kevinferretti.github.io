@@ -15,6 +15,7 @@
   --color-accent-hover: #ff3333;
   --color-blue: #1a4fd6;
   --color-green: #00a854;
+  --color-yellow: #e6b800;
   --color-border: #2a2a2a;
   --color-white: #ffffff;
 
@@ -580,6 +581,92 @@ main {
 }
 
 /* --------------------------------------------------------------------------
+   Blog Post Page
+   -------------------------------------------------------------------------- */
+.blog-post {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.blog-post-header {
+  margin-bottom: var(--space-xl);
+}
+
+.blog-post-header h1 {
+  margin-bottom: var(--space-xs);
+}
+
+.blog-post-meta {
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  margin: 0;
+}
+
+.blog-post-content p {
+  margin-bottom: var(--space-md);
+}
+
+.blog-post-content blockquote {
+  border-left: 3px solid var(--color-accent);
+  margin: var(--space-md) 0;
+  padding: var(--space-sm) var(--space-md);
+  background-color: var(--color-bg-alt);
+  border-radius: 0 6px 6px 0;
+}
+
+.blog-post-content blockquote p {
+  margin: 0;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.blog-post-content ul,
+.blog-post-content ol {
+  margin: var(--space-md) 0;
+  padding-left: var(--space-lg);
+  color: var(--color-text-light);
+  list-style: disc;
+}
+
+.blog-post-content ol {
+  list-style: decimal;
+}
+
+.blog-post-content li {
+  margin-bottom: var(--space-sm);
+}
+
+.blog-post-content h2 {
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+}
+
+.blog-post-content h3 {
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+}
+
+.blog-post-content code {
+  background-color: var(--color-bg-alt);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+.blog-post-content pre {
+  background-color: var(--color-bg-alt);
+  padding: var(--space-md);
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: var(--space-md) 0;
+}
+
+.blog-post-content pre code {
+  padding: 0;
+  background: none;
+}
+
+/* --------------------------------------------------------------------------
    Talks Page
    -------------------------------------------------------------------------- */
 .talks-grid {
@@ -955,6 +1042,14 @@ main {
   text-align: center;
 }
 
+.link-red {
+  color: var(--color-accent);
+}
+
+.link-red:hover {
+  color: var(--color-accent-hover);
+}
+
 .link-green {
   color: var(--color-green);
 }
@@ -969,6 +1064,14 @@ main {
 
 .link-blue:hover {
   color: #4d7fff;
+}
+
+.link-yellow {
+  color: var(--color-yellow);
+}
+
+.link-yellow:hover {
+  color: #ffd000;
 }
 
 .placeholder-note {
