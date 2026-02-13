@@ -302,6 +302,12 @@ main {
     border-bottom: none;
   }
 
+  .nav-links a.nav-source {
+    border: none;
+    border-radius: 0;
+    padding: var(--space-sm) 0;
+  }
+
   .nav-links a.active::after {
     display: none;
   }
